@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="theme2_colorAccent">#7f0090</color>
+    <color name="theme2_background">#FF0000</color>
+    <color name="theme2_container_color">#ADD8E6</color>
+    <color name="theme2_toolbar_color">#000</color>
+    <color name="theme2_toolbar_content_color">#FFF</color>
+    <color name="theme2_primary_text_color">#000</color>
+
+</resources>
