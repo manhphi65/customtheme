@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="toolbar_theme" format="reference"/>
+
+    <attr name="toolbar_background" format="reference"/>
+    <attr name="toolbar_content_color" format="color"/>
+    <attr name="background" format="reference"/>
+    <attr name="container_background" format="reference"/>
+    <attr name="primaryText" format="color"/>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="theme1_toolbar_theme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">?toolbar_background</item>
+        <item name="colorControlNormal">?toolbar_content_color</item>
+    </style>
+
+    <style name="Theme1" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorAccent">@color/theme1_colorAccent</item>
+        <item name="colorButtonNormal">@color/theme1_colorAccent</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="background">@color/theme1_background</item>
+        <item name="toolbar_background">@color/theme1_toolbar_color</item>
+        <item name="toolbar_content_color">@color/theme1_toolbar_content_color</item>
+        <item name="toolbar_theme">@style/theme1_toolbar_theme</item>
+        <item name="container_background">@drawable/theme1_container_background</item>
+        <item name="primaryText">@color/theme1_primary_text_color</item>
+        <item name="android:textColorPrimary">@color/theme1_primary_text_color</item>
+    </style>
+</resources>
