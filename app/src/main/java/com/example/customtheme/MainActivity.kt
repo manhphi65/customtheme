@@ -13,7 +13,7 @@ import androidx.core.app.TaskStackBuilder
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var preference: SharedPreferences
+    private lateinit var preference: SharedPreferences
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,6 +38,9 @@ class MainActivity : AppCompatActivity() {
             textViewState = !textViewState
             textView.isActivated = textViewState
             editText.isSelected = textViewState
+        }
+        findViewById<View>(R.id.btn_show_splash).setOnClickListener {
+            startActivity(Intent(this, SplashActivity::class.java))
         }
         setSupportActionBar(findViewById(R.id.toolbar))
         supportActionBar?.apply {

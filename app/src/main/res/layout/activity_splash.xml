@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@drawable/splash"
+    tools:ignore="ContentDescription">
+
+    <ImageView
+        android:id="@+id/iv_kilograms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/kilograms" />
+
+    <ImageView
+        android:id="@+id/iv_tax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="85dp"
+        android:src="@drawable/tax" />
+
+    <ImageView
+        android:id="@+id/iv_ovulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="326dp"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/ovulation" />
+
+    <ImageView
+        android:id="@+id/iv_percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="181dp"
+        android:src="@drawable/percentage" />
+
+    <ImageView
+        android:id="@+id/iv_fuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="181dp"
+        android:src="@drawable/fuel" />
+
+    <ImageView
+        android:id="@+id/iv_loan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="642dp"
+        android:src="@drawable/loan" />
+
+    <ImageView
+        android:id="@+id/iv_world_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="261dp"
+        android:layout_marginTop="633dp"
+        android:src="@drawable/world_time" />
+
+    <ImageView
+        android:id="@+id/iv_currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="733dp"
+        android:src="@drawable/currency" />
+
+    <ImageView
+        android:id="@+id/iv_saving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="706dp"
+        android:src="@drawable/saving" />
+
+    <ImageView
+        android:id="@+id/iv_health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="271dp"
+        android:layout_marginTop="745dp"
+        android:src="@drawable/health" />
+</RelativeLayout>

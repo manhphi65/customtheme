@@ -74,6 +74,16 @@
             android:text="Change Color"
             tools:ignore="HardcodedText" />
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_show_splash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_change_color"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Show Splash Animation"
+            tools:ignore="HardcodedText" />
+
     </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
